@@ -11,7 +11,7 @@
     <li>Normal Wordle Mode</li>
   </ul>
   <li>Stats in Each Mode</li>
-  <li>Random Word API Usage</li>
+  <li>Random Word API Usage - Heroku</li>
 </ul>
 
 <h3>Future Feature List</h3>
@@ -25,4 +25,8 @@
   <li>Categories</li>
 </ul>
 
+<h3>To Fix</h3>
+<ul>
+  <li>If API down, takes a while and crashes if play a game too fast. Have to wait for words to be chosen from common list after API request</li>
+</ul>
 <p><i>Adaptation inspired by Stewart Lynch's Wordle Tutorial</i></p>
