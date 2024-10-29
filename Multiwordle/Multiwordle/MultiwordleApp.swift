@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct MultiwordleApp: App {
+    @StateObject var dm = DataModel()
+    @StateObject var csManager = ColorSchemeManager()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
