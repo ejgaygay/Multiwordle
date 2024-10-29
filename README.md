@@ -25,4 +25,4 @@
   <li>Categories</li>
 </ul>
 
-<p><i>Adaptation of Stewart Lynch's Wordle Tutorial</i></p>
+<p><i>Adaptation inspired by Stewart Lynch's Wordle Tutorial</i></p>
