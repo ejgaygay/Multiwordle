@@ -5,6 +5,10 @@
 //  Created by EJ Gaygay on 10/28/24.
 //
 
+/*
+ Shake File with logic for the shake animation
+ */
+
 import SwiftUI
 
 struct Shake: GeometryEffect {

@@ -5,6 +5,10 @@
 //  Created by EJ Gaygay on 10/28/24.
 //
 
+/*
+  Help screen, universal to all modes.
+ */
+
 import SwiftUI
 
 struct HelpView: View {

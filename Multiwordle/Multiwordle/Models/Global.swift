@@ -5,6 +5,12 @@
 //  Created by EJ Gaygay on 10/27/24.
 //
 
+/*
+  The globals of the app.
+    Screen size stuff for scaling on devices.
+    Common words list as a failsafe and word bank
+ */
+
 import UIKit
 
 enum Global {

@@ -5,6 +5,8 @@
 //  Created by EJ Gaygay on 10/27/24.
 //
 
+/* The normal, 5 letter guess view */
+
 import SwiftUI
 
 struct NormalGuessView: View {

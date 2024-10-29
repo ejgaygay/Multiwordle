@@ -5,6 +5,9 @@
 //  Created by EJ Gaygay on 10/27/24.
 //
 
+/*
+  The toast celebration or guess warning view
+ */
 import SwiftUI
 
 struct ToastView: View {

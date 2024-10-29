@@ -5,6 +5,7 @@
 //  Created by EJ Gaygay on 10/29/24.
 //
 /*
+ For future development, 6 letter game view
 import SwiftUI
 
 struct SixGameView: View {

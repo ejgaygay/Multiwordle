@@ -5,6 +5,9 @@
 //  Created by EJ Gaygay on 10/27/24.
 //
 
+/*
+  Individual letter for the KB
+ */
 import SwiftUI
 
 struct LetterButtonView: View {

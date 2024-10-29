@@ -5,6 +5,9 @@
 //  Created by EJ Gaygay on 10/27/24.
 //
 
+/*
+  The guess model
+ */
 import SwiftUI
 
 struct Guess {

@@ -5,7 +5,10 @@
 //  Created by EJ Gaygay on 10/28/24.
 //
 
-
+/*
+  Disregard name LOL.
+  Timed Wordle View - same stuff but includes a timer
+ */
 import SwiftUI
 
 struct DailyView: View {
