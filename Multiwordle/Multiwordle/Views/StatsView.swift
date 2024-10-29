@@ -5,6 +5,9 @@
 //  Created by EJ Gaygay on 10/27/24.
 //
 
+/*
+  The stats page - shows guess distribution and streak
+ */
 import SwiftUI
 
 struct StatsView: View {

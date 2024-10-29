@@ -5,6 +5,10 @@
 //  Created by EJ Gaygay on 10/27/24.
 //
 
+
+/*
+ Flip View File with logic for the flip animation
+ */
 import SwiftUI
 
 struct FlipView<Front, Back>: View where Front: View, Back: View {

@@ -4,7 +4,9 @@
 //
 //  Created by EJ Gaygay on 10/28/24.
 //
-
+/*
+  The game view - guess, KB, toolbar with navs, etc.
+ */
 import SwiftUI
 
 struct GameView: View {

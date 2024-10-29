@@ -5,7 +5,7 @@
 //  Created by EJ Gaygay on 10/29/24.
 //
 /*
-
+ For future development, 6 letter mode guess view
 import SwiftUI
 
 struct SixGuessView: View {

@@ -1,3 +1,9 @@
+//
+//  HomeView.swift
+//  Multiwordle
+//
+//  Created by EJ Gaygay on 10/27/24.
+//
 import SwiftUI
 
 struct HomeView: View {

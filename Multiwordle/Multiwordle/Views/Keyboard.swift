@@ -6,6 +6,9 @@
 //
 import SwiftUI
 
+/*
+  Keyboard view
+ */
 struct Keyboard: View {
     @EnvironmentObject var dm: DataModel
     var topRowArray = "QWERTYUIOP".map{ String($0) }
