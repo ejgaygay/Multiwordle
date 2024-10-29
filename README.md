@@ -24,3 +24,5 @@
   <li>Head to Head Mode</li>
   <li>Categories</li>
 </ul>
+
+<p><i>Adaptation of Stewart Lynch's Wordle Tutorial</i></p>
