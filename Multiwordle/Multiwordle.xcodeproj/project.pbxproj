@@ -8,17 +8,61 @@
 
 /* Begin PBXBuildFile section */
 		702E95EC2CCDF3B800216674 /* MultiwordleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E95EB2CCDF3B800216674 /* MultiwordleApp.swift */; };
-		702E95EE2CCDF3B800216674 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E95ED2CCDF3B800216674 /* ContentView.swift */; };
 		702E95F02CCDF3B900216674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702E95EF2CCDF3B900216674 /* Assets.xcassets */; };
 		702E95F32CCDF3B900216674 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702E95F22CCDF3B900216674 /* Preview Assets.xcassets */; };
+		702E95FD2CCEA9BD00216674 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E95FC2CCEA9BD00216674 /* Color+Extension.swift */; };
+		702E96002CCEAAF600216674 /* Guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E95FF2CCEAAF600216674 /* Guess.swift */; };
+		702E96052CCEAC8E00216674 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E96042CCEAC8E00216674 /* DataModel.swift */; };
+		702E96082CCEACD300216674 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E96072CCEACD300216674 /* Global.swift */; };
+		702E960A2CCEAE5600216674 /* NormalGuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E96092CCEAE5600216674 /* NormalGuessView.swift */; };
+		702E960D2CCEB2B000216674 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E960C2CCEB2B000216674 /* Keyboard.swift */; };
+		702E960F2CCEB2D200216674 /* LetterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E960E2CCEB2D200216674 /* LetterButtonView.swift */; };
+		702E96112CCEB33B00216674 /* Statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E96102CCEB33B00216674 /* Statistic.swift */; };
+		702E96132CCEB3B900216674 /* UbiquitousStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E96122CCEB3B900216674 /* UbiquitousStore.swift */; };
+		702E96172CCEC41B00216674 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E96162CCEC41B00216674 /* HomeView.swift */; };
+		702E961B2CCEC8BA00216674 /* UI+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E961A2CCEC8BA00216674 /* UI+Extension.swift */; };
+		702E961D2CCEC96B00216674 /* ColorSchemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E961C2CCEC96B00216674 /* ColorSchemeManager.swift */; };
+		702E961F2CCECDFA00216674 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E961E2CCECDFA00216674 /* ToastView.swift */; };
+		702E96212CCECEA800216674 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E96202CCECEA800216674 /* StatsView.swift */; };
+		702E96242CCECF5600216674 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E96232CCECF5600216674 /* FlipView.swift */; };
+		702E96262CCFEA2A00216674 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E96252CCFEA2A00216674 /* GameView.swift */; };
+		702E962A2CCFF07600216674 /* Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E96292CCFF07600216674 /* Shake.swift */; };
+		702E962E2CCFF4FA00216674 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E962D2CCFF4FA00216674 /* HelpView.swift */; };
+		702E96332CD00F9700216674 /* DailyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E96322CD00F9700216674 /* DailyView.swift */; };
+		702E96392CD0BBAE00216674 /* SixGuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E96382CD0BBAE00216674 /* SixGuessView.swift */; };
+		702E963B2CD0BBD900216674 /* SixGuess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E963A2CD0BBD900216674 /* SixGuess.swift */; };
+		702E963D2CD0BC2500216674 /* SixDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E963C2CD0BC2500216674 /* SixDataModel.swift */; };
+		702E963F2CD0BCBB00216674 /* SixGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E963E2CD0BCBB00216674 /* SixGameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		702E95E82CCDF3B800216674 /* Multiwordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multiwordle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		702E95EB2CCDF3B800216674 /* MultiwordleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiwordleApp.swift; sourceTree = "<group>"; };
-		702E95ED2CCDF3B800216674 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		702E95EF2CCDF3B900216674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		702E95F22CCDF3B900216674 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		702E95FC2CCEA9BD00216674 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		702E95FF2CCEAAF600216674 /* Guess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess.swift; sourceTree = "<group>"; };
+		702E96042CCEAC8E00216674 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		702E96072CCEACD300216674 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		702E96092CCEAE5600216674 /* NormalGuessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalGuessView.swift; sourceTree = "<group>"; };
+		702E960C2CCEB2B000216674 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		702E960E2CCEB2D200216674 /* LetterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterButtonView.swift; sourceTree = "<group>"; };
+		702E96102CCEB33B00216674 /* Statistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic.swift; sourceTree = "<group>"; };
+		702E96122CCEB3B900216674 /* UbiquitousStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbiquitousStore.swift; sourceTree = "<group>"; };
+		702E96162CCEC41B00216674 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		702E961A2CCEC8BA00216674 /* UI+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI+Extension.swift"; sourceTree = "<group>"; };
+		702E961C2CCEC96B00216674 /* ColorSchemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemeManager.swift; sourceTree = "<group>"; };
+		702E961E2CCECDFA00216674 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		702E96202CCECEA800216674 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		702E96232CCECF5600216674 /* FlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
+		702E96252CCFEA2A00216674 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		702E96292CCFF07600216674 /* Shake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shake.swift; sourceTree = "<group>"; };
+		702E962D2CCFF4FA00216674 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		702E96322CD00F9700216674 /* DailyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyView.swift; sourceTree = "<group>"; };
+		702E96382CD0BBAE00216674 /* SixGuessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixGuessView.swift; sourceTree = "<group>"; };
+		702E963A2CD0BBD900216674 /* SixGuess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixGuess.swift; sourceTree = "<group>"; };
+		702E963C2CD0BC2500216674 /* SixDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixDataModel.swift; sourceTree = "<group>"; };
+		702E963E2CD0BCBB00216674 /* SixGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixGameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +95,12 @@
 		702E95EA2CCDF3B800216674 /* Multiwordle */ = {
 			isa = PBXGroup;
 			children = (
+				702E96222CCECF4E00216674 /* Animations */,
+				702E960B2CCEB2A500216674 /* Views */,
+				702E96032CCEAC7700216674 /* ViewModels */,
 				702E95EB2CCDF3B800216674 /* MultiwordleApp.swift */,
-				702E95ED2CCDF3B800216674 /* ContentView.swift */,
+				702E95FE2CCEAAE900216674 /* Models */,
+				702E95F92CCEA87800216674 /* Extensions */,
 				702E95EF2CCDF3B900216674 /* Assets.xcassets */,
 				702E95F12CCDF3B900216674 /* Preview Content */,
 			);
@@ -65,6 +113,64 @@
 				702E95F22CCDF3B900216674 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		702E95F92CCEA87800216674 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				702E95FC2CCEA9BD00216674 /* Color+Extension.swift */,
+				702E961A2CCEC8BA00216674 /* UI+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		702E95FE2CCEAAE900216674 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				702E95FF2CCEAAF600216674 /* Guess.swift */,
+				702E96072CCEACD300216674 /* Global.swift */,
+				702E96102CCEB33B00216674 /* Statistic.swift */,
+				702E96122CCEB3B900216674 /* UbiquitousStore.swift */,
+				702E963A2CD0BBD900216674 /* SixGuess.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		702E96032CCEAC7700216674 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				702E96042CCEAC8E00216674 /* DataModel.swift */,
+				702E963C2CD0BC2500216674 /* SixDataModel.swift */,
+				702E961C2CCEC96B00216674 /* ColorSchemeManager.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		702E960B2CCEB2A500216674 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				702E96092CCEAE5600216674 /* NormalGuessView.swift */,
+				702E96382CD0BBAE00216674 /* SixGuessView.swift */,
+				702E960C2CCEB2B000216674 /* Keyboard.swift */,
+				702E960E2CCEB2D200216674 /* LetterButtonView.swift */,
+				702E96162CCEC41B00216674 /* HomeView.swift */,
+				702E961E2CCECDFA00216674 /* ToastView.swift */,
+				702E96202CCECEA800216674 /* StatsView.swift */,
+				702E96252CCFEA2A00216674 /* GameView.swift */,
+				702E963E2CD0BCBB00216674 /* SixGameView.swift */,
+				702E962D2CCFF4FA00216674 /* HelpView.swift */,
+				702E96322CD00F9700216674 /* DailyView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		702E96222CCECF4E00216674 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				702E96232CCECF5600216674 /* FlipView.swift */,
+				702E96292CCFF07600216674 /* Shake.swift */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +243,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				702E95EE2CCDF3B800216674 /* ContentView.swift in Sources */,
+				702E963B2CD0BBD900216674 /* SixGuess.swift in Sources */,
+				702E961D2CCEC96B00216674 /* ColorSchemeManager.swift in Sources */,
+				702E96052CCEAC8E00216674 /* DataModel.swift in Sources */,
+				702E962A2CCFF07600216674 /* Shake.swift in Sources */,
+				702E963D2CD0BC2500216674 /* SixDataModel.swift in Sources */,
+				702E961B2CCEC8BA00216674 /* UI+Extension.swift in Sources */,
+				702E96262CCFEA2A00216674 /* GameView.swift in Sources */,
+				702E96212CCECEA800216674 /* StatsView.swift in Sources */,
+				702E961F2CCECDFA00216674 /* ToastView.swift in Sources */,
+				702E960D2CCEB2B000216674 /* Keyboard.swift in Sources */,
+				702E96082CCEACD300216674 /* Global.swift in Sources */,
+				702E96132CCEB3B900216674 /* UbiquitousStore.swift in Sources */,
+				702E960A2CCEAE5600216674 /* NormalGuessView.swift in Sources */,
+				702E963F2CD0BCBB00216674 /* SixGameView.swift in Sources */,
+				702E96242CCECF5600216674 /* FlipView.swift in Sources */,
+				702E96002CCEAAF600216674 /* Guess.swift in Sources */,
+				702E962E2CCFF4FA00216674 /* HelpView.swift in Sources */,
+				702E95FD2CCEA9BD00216674 /* Color+Extension.swift in Sources */,
+				702E960F2CCEB2D200216674 /* LetterButtonView.swift in Sources */,
+				702E96172CCEC41B00216674 /* HomeView.swift in Sources */,
+				702E96332CD00F9700216674 /* DailyView.swift in Sources */,
+				702E96112CCEB33B00216674 /* Statistic.swift in Sources */,
 				702E95EC2CCDF3B800216674 /* MultiwordleApp.swift in Sources */,
+				702E96392CD0BBAE00216674 /* SixGuessView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
